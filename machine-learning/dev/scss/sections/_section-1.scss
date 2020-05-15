@@ -1,0 +1,14 @@
+/* =============
+    Section-1
+============= */
+
+#section-1 {
+    background-image: url('../img/section-1/hero.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 360px;
+
+    @include md {
+        height: 683px;
+    }
+}
